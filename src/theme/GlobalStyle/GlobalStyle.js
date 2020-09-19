@@ -7,9 +7,13 @@ const GlobalStyle = createGlobalStyle`
           margin: 0;
         }
 
-        * + * {
-          margin-top: 1rem;
-        }
+        /* margin-top: 0; */
+
+        /* * + * { */
+          /* margin-top: 1rem; */
+        /* } */
+
+
         html,
         body {
           margin: 0;
@@ -20,9 +24,11 @@ const GlobalStyle = createGlobalStyle`
           font-size: 18px;
           line-height: 1.4;
 
-          > div {
+          /* &:first-child {
             margin-top: 0;
-          }
+          } */
+
+          
         }
         h1,
         h2,
