@@ -9,6 +9,7 @@ const useProjects = () => {
             title
             description
             skills
+            section
           }
           excerpt
         }
@@ -20,6 +21,7 @@ const useProjects = () => {
     title: project.frontmatter.title,
     description: project.frontmatter.description,
     skills: project.frontmatter.skills,
+    section: project.frontmatter.section,
     excerpt: project.excerpt,
   }));
 };

@@ -18,9 +18,17 @@ const GlobalStyle = createGlobalStyle`
         body {
           margin: 0;
           color: #555;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          /* font-family: 'Nunito'; */
+          font-family: 'Playfair Display', 'sarif';
+          /* font-family: 'Amiri'; */
+          /* font-family: 'Vollkorn'; */
+          /* font-family: 'Rubik'; */
+          /* font-family: 'Epilogue'; */
+          /* font-family: Roboto; */
+          
+          /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
             Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-            'Segoe UI Symbol';
+            'Segoe UI Symbol'; */
           font-size: 18px;
           line-height: 1.4;
 
