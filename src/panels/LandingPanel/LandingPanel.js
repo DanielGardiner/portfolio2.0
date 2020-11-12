@@ -74,7 +74,7 @@ const StyledContentPanel = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 0 40px 30px 40px;
-  height: 300px;
+  height: 350px;
 
   ${breakpoint("md")`
     height: auto;
@@ -127,7 +127,19 @@ const StyledTitleMedium = styled(StyledTitle)`
   `}
 `;
 
+const StyledCallToActionContainer = styled.div`
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+  align-items: "center";
+
+  ${breakpoint("md")`
+    margin-top: -100px;
+  `};
+`;
+
 const StyledCallToAction = styled.h2`
+  text-align: center;
   font-family: "Permanent Marker", "sarif";
   color: ${purple[300]};
   text-decoration: underline ${purple[800]};
@@ -195,7 +207,7 @@ function LandingPanel() {
       </StyledImgPanel>
 
       <StyledTitleSmall>
-        <div style={{ padding: "0 40px" }}>
+        <div style={{ padding: "20px 40px 5px 40px" }}>
           Hi I'm <StyledHighlightedText>Daniel Gardiner</StyledHighlightedText>{" "}
           <br />a Web Developer based in Bristol
         </div>
@@ -214,24 +226,16 @@ function LandingPanel() {
           </StyledLeadText>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <StyledCallToActionContainer>
           <StyledCallToAction>Find out more</StyledCallToAction>
           <StyledIconOuterContainerContent>
             <StyledIconInnerContainer>
-              {/* <IconGithub fill="red" /> */}
               <img src={iconGithub} />
               <img src={iconLinkedIn} />
               <img src={iconDocument} />
             </StyledIconInnerContainer>
           </StyledIconOuterContainerContent>
-        </div>
+        </StyledCallToActionContainer>
 
         <div>
           <p>Get in contact</p>
