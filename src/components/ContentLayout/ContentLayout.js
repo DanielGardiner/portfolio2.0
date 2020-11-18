@@ -8,8 +8,8 @@ const StyledContainer = styled.div`
 
 const StyledDiv = styled.div`
   margin: 0 auto 2rem auto;
-  max-width: 550px;
-  padding: 10px;
+  max-width: 960px;
+  padding: 30px 40px;
 `;
 
 function ContentLayout({ children }) {

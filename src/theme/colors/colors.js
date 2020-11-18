@@ -10,4 +10,8 @@ const purple = {
   800: "#6742CF",
 };
 
-export { grey, purple };
+const blue = {
+  400: "#007AE9",
+};
+
+export { grey, purple, blue };

@@ -73,7 +73,7 @@ const StyledContentPanel = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 40px 30px 40px;
+  padding: 0 20px 30px 20px;
   height: 350px;
 
   ${breakpoint("md")`

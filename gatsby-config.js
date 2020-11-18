@@ -34,6 +34,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
+          "Open Sans",
+          "DM Serif Display",
           "Permanent Marker",
           `Nunito`,
           `Playfair Display\:200,300`,

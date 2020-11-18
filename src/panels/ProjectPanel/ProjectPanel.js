@@ -6,12 +6,13 @@ import { grey } from "../../theme/colors/colors";
 
 const StyledProjectContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   background-color: ${grey[100]};
 `;
 
 const StyledProject = styled.div`
   padding: 20px;
-  width: 30%;
+  width: 50%;
 `;
 
 function ProjectPanel() {
