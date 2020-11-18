@@ -15,12 +15,6 @@ export default function Home() {
       <Helmet />
       <LandingPanel />
       <ContentLayout>
-        <SectionHeading title={"REACT NEW BUILDS"} />
-        <SectionLeadText
-          text={
-            "Here are two applications I have built using React whilst working as a web developer at Nudge Digital"
-          }
-        />
         <ProjectPanel />
       </ContentLayout>
     </>
